@@ -1,0 +1,429 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+html body {
+	font-family: "Gill Sans W04",GillSans,"Gill Sans","Gill Sans MT",Calibri,"Trebuchet MS",sans-serif;
+	line-height: 1.4em;
+	color: #000;
+	background: #000;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1, h2, h3, h4 {
+	font-weight: normal;
+	font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+	line-height: 1em;
+	color: #2b2b2b;
+	margin: 10px 0 0 0;
+}
+
+em {
+	font-style: italic;
+}
+
+h1 {
+	color: #fff;
+	font-size: 2.8em;
+	-webkit-box-sizing: border-box;
+}
+
+h3 {
+	font-size: 1.73333em;
+	line-height: 1em;
+}
+
+html body a, html body a:visited {
+	color: #257372;
+}
+
+hr.divider {
+	background-color: #d1d3d4;
+	border: 0;
+	border-top: 1px solid #d1d3d4;
+	border-bottom: 1px solid #f9f9fa;
+	color: #d1d3d4;
+	display: block;
+	box-sizing: border-box;
+	height: 2px;
+	margin: 20px 0 0 0;
+}
+
+.b-wrapper-lang {
+	color: #fff;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.b-wrapper-lang a {
+	color: #fff;
+}
+
+.b-wrapper-lang a:visited {
+	color: #fff;
+}
+
+.b-wrapper-bg {
+	background: url('../img/anna-bg.jpg');
+	position: absolute;
+	width: 100%;
+	min-width: 1000px;
+	height: 1080px;
+	background-color: black;
+	background-position: top center;
+	background-repeat: no-repeat;
+	z-index: -10;
+}
+
+.b-wrapper-spacer {
+	height: 280px;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 80px 10px;
+}
+
+.b-wrapper-spacer-name {
+	padding: 20px 20px;
+	text-shadow: 1px 1px 1px black;
+	background-size: 120px 120px;
+	background-repeat: no-repeat;
+}
+
+.b-wrapper-spacer-name h3{
+	font-size: 1.73333em;
+	margin: 10px 0 0 0;
+	line-height: 1em;
+	color: #fff;
+}
+
+.stat-label {
+	display: block;
+	padding-left: 30px;
+}
+
+.stat-label-phone {
+	background: url('../img/phone.png') no-repeat;
+}
+
+.stat-label-email {
+	background: url('../img/email.png') no-repeat;
+}
+
+.stat-value {
+	display: block;
+	padding-left: 30px;
+}
+
+.b-wrapper-content {
+	min-width: 1000px;
+	margin-top: 50px;
+	position: relative;
+	box-sizing: border-box;
+	min-height: 150px;
+	width: 100%;
+	margin: 0px auto;
+	background: transparent none repeat-y;
+}
+
+.b-wrapper-content-top {
+	display: block;
+	width: 100%;
+	position: relative;
+	background: transparent url("../img/frame-textures-sprite.jpg") no-repeat 50% 0;
+	top: -12px;
+	left: 0;
+	height: 111px;
+}
+
+.b-wrapper-content-top:before {
+	background-position: 50% 0;
+	top: -32px;
+	height: 148px;
+	content: "";
+	width: 100%;
+	position: absolute;
+	left: 0;
+	background: transparent url("../img/frame-sprite.png") no-repeat 50% -1px;
+	
+}
+
+.b-wrapper-content-mid {
+	background-image: url("../img/frame-center.png");
+	background-repeat: repeat-y;
+	background-position: 50% 0;
+}
+
+.b-wrapper-content-mid-quickbg {
+	position: absolute;
+	max-width: 1000px;
+	background: #dedede;
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	right: 0;
+	margin-left: -500px;
+	z-index: -10;
+}
+
+.b-wrapper-content-mid-wrapper {
+	position: relative;
+	width: 940px;
+	margin: -121px auto -116px auto;
+	padding: 20px 20px 0 20px;
+	min-height: 350px;
+	z-index: 1;
+}
+
+.b-wrapper-content-mid-wrapper-border {
+	width: 49%;
+	box-sizing: border-box;
+	padding: 4px;
+	float: left;
+	background-color: transparent;
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#1A000000,endColorstr=#1A000000);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#1A000000,endColorstr=#1A000000);
+	background-color: rgba(0,0,0,0.1);
+	border-left: 1px solid rgba(84,84,84,0.3);
+	border-top: 1px solid rgba(84,84,84,0.3);
+	border-bottom: 1px solid rgba(255,255,255,0.6);
+	border-right: 1px solid rgba(255,255,255,0.6);
+}
+
+.b-wrapper-content-mid-wrapper-left {
+	height: 160px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding: 20px;
+	box-sizing: border-box;
+	background: #e9eaec;
+	color: #333132;
+	width: auto;
+	position: relative;
+	-webkit-box-shadow: 0 0 2px 0 #868686;
+	-moz-box-shadow: 0 0 2px 0 #868686;
+	box-shadow: 0 0 2px 0 #868686;
+	background-color: #dedede;
+}
+
+.b-wrapper-content-mid-wrapper-left-photo {
+	float: left;
+	width: 33.33333%;
+}
+
+.b-wrapper-content-mid-wrapper-left-photo img{
+	width: 120px; 
+	height: 120px;
+}
+
+.b-wrapper-content-mid-wrapper-left-name {
+	float: left;
+	width: 66.66667%;
+}
+
+.b-wrapper-content-mid-wrapper-right {
+	float: right;
+	width: 50%;
+}
+
+.b-wrapper-content-mid-wrapper-right-lore {
+	padding-left: 10px;
+}
+
+.b-wrapper-content-mid-wrapper-right-abilities {
+	padding-left: 10px;
+}
+
+.b-wrapper-content-mid-wrapper-right-abilities-summary {
+	clear: both;
+	margin-left: -20px;
+	overflow: hidden;
+}
+
+.default-1-5 {
+	width: 19%;
+	padding-top: 0;
+	padding-left: 20px;
+	float: left;
+	position: relative;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.content-border {
+	box-sizing: border-box;
+	padding: 4px;
+	margin-top: 20px;
+	background-color: transparent;
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#1A000000,endColorstr=#1A000000);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#1A000000,endColorstr=#1A000000);
+	background-color: rgba(0,0,0,0.1);
+	border-left: 1px solid rgba(84,84,84,0.3);
+	border-top: 1px solid rgba(84,84,84,0.3);
+	border-bottom: 1px solid rgba(255,255,255,0.6);
+	border-right: 1px solid rgba(255,255,255,0.6);
+}
+
+.default-1-5 a  img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+.b-wrapper-content-bot {
+	display: block;
+	width: 100%;
+	position: relative;
+	background: transparent url("../img/frame-sprite.png") no-repeat 50% -284px;
+	left: 0;
+	height: 130px;
+	bottom: -7px;
+}
+
+.b-wrapper-content-second {
+	margin-top: 50px;
+}
+
+.b-wrapper-content-second .b-wrapper-content-top:before {
+	background: transparent url("../img/frame-sprite.png") no-repeat 50% -148px;
+	top: -21px;
+}
+
+.b-wrapper-content-mid-wrapper-header {
+	position: relative;
+	background: black url("../img/lol-textures.jpg") no-repeat 0 -6px;
+	padding: 17px 20px 11px 20px;
+	-webkit-box-shadow: 0 1px 2px #323232;
+	-moz-box-shadow: 0 1px 2px #323232;
+	box-shadow: 0 1px 2px #323232;
+}
+
+.b-wrapper-content-mid-wrapper-header:before {
+	content: "";
+	display: block;
+	height: 2px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+
+.b-wrapper-content-mid-wrapper-header h2{
+	color: #dfe1e1;
+	font-size: 2em;
+	font-weight: normal;
+}
+
+.b-wrapper-content-mid-wrapper-abitity {
+	clear: both;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+.gs-container {
+	clear: both;
+	overflow: hidden;
+}
+
+.default-1-10 {
+	width: 10%;
+	float: left;
+}
+
+.default-9-10{
+	width: 90%;
+	float: left;
+}
+
+span.content-border {
+	display: inline-block;
+	width: auto;
+	max-width: 100%;
+	padding: 4px 4px 0px 4px;
+}
+
+.default-1-1 {
+	width: 100%;
+	overflow: hidden;
+	clear: both;
+	padding-top: 20px;
+}
+
+.b-wrapper-content-mid-wrapper-lore {
+	padding: 20px 0;
+}
+
+.margin-top-20 {
+	margin-top: 20px;
+}
+
+.margin-top-15 {
+	margin-top: 15px;
+}
+
+.margin-top-0 {
+	margin-top: 0px;
+}
+
+.b-wrapper-content-last {
+	margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
