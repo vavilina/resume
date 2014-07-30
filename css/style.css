@@ -217,7 +217,7 @@ hr.divider {
 }
 
 .b-wrapper-content-mid-wrapper-border {
-	width: 49%;
+	width: 48%;
 	box-sizing: border-box;
 	padding: 4px;
 	float: left;
@@ -232,9 +232,6 @@ hr.divider {
 }
 
 .b-wrapper-content-mid-wrapper-left {
-	height: 160px;
-	padding-left: 20px;
-	padding-top: 20px;
 	padding: 20px;
 	box-sizing: border-box;
 	background: #e9eaec;
@@ -245,6 +242,10 @@ hr.divider {
 	-moz-box-shadow: 0 0 2px 0 #868686;
 	box-shadow: 0 0 2px 0 #868686;
 	background-color: #dedede;
+}
+
+.b-wrapper-content-mid-wrapper-left-wr {
+	height: 120px;
 }
 
 .b-wrapper-content-mid-wrapper-left-photo {
